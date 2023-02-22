@@ -13,6 +13,6 @@
         </style>
     </head>
     <body class="antialiased">
-        <div>FACTURACION</div>
+        <div><h1>FACTURACION</h1></div>
     </body>
 </html>

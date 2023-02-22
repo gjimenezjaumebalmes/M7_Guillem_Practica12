@@ -13,6 +13,6 @@
         </style>
     </head>
     <body class="antialiased">
-        <div>CONTABILIDAD</div>
+        <div><h1>CONTABILIDAD</h1></div>
     </body>
 </html>
