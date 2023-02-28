@@ -13,6 +13,8 @@
         </style>
     </head>
     <body class="antialiased">
-        <div><h1>CONTABILIDAD</h1></div>
+    <a href="<?= route('contabilidad') ?>">
+        <h1>CONTABILIDAD</h1>
+    </a>
     </body>
 </html>

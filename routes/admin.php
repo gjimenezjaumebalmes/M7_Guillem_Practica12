@@ -19,13 +19,13 @@ use App\Http\Controllers\Admin\ControladorAdmin;
 ///
 
 Route::group(['middleware' => ['admin']], function (){
-    Route::get('clientes',[ControladorAdmin::class, 'clientes']);
+    Route::get('clientes',[ControladorAdmin::class, 'clientes']) -> name('clientes');
 });
 
 Route::group(['middleware' => ['admin']], function (){
-    Route::get('facturacion',[ControladorAdmin::class, 'facturacion']);
+    Route::get('facturacion',[ControladorAdmin::class, 'facturacion']) -> name('facturacion');
 });
 
 Route::group(['middleware' => ['admin']], function (){
-    Route::get('contabilidad',[ControladorAdmin::class, 'contabilidad']);
+    Route::get('contabilidad',[ControladorAdmin::class, 'contabilidad']) -> name('contabilidad');
 });

@@ -13,6 +13,8 @@
         </style>
     </head>
     <body class="antialiased">
-        <div><h1>FACTURACION</h1></div>
+    <a href="<?= route('facturacion') ?>">
+        <h1>FACTURACION</h1>
+    </a>
     </body>
 </html>

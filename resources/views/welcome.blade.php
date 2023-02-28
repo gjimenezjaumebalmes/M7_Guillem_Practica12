@@ -13,6 +13,10 @@
         </style>
     </head>
     <body class="antialiased">
-        <div>HELLO WORLD</div>
+        <div>
+            <a href="<?= route('entrada') ?>">
+            HELLO WORLD
+            </a>
+        </div>
     </body>
 </html>
